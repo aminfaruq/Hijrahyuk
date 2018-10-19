@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@drawable/main_activity_yukhijrah"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/Linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbb"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgHijrah"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hijrah" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Apa yang harus kita lalukan agar kita
+bisa berhijrah"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Linear2"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbb"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgSaatHijrah"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/indonesia_tanpa_pacaran" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Saat hijrah itu terasa berat, lalu apa
+yang harus kita kerjakan ?"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear3"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbb"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgCantik"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cantik" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kecantikan yang abadi itu terletak
+pada hati dan bukan fisik."
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear4"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbb"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgMemperbaiki"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hijrahadalahsquare" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hijrah adalah memperbaiki diri agar menjadi penyabar bukan pencela"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear5"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbb"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgPercayalah"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dear" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Percayalah bahwa rencana Allah
+lebih indah daripada segalanya"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear6"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbb"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgMengadu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sholat" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Allah adalah tempat terbaik untuk mengadu"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear7"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbb"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgJanganTakut"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rizki" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Janganlah takut kehilangan rizki tapi takutlah kalau rizki itu tidak berkah"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
